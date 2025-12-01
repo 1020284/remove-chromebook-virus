@@ -5,7 +5,7 @@ function moveWindows() {
 
   if (!window1 || window1.closed || typeof window1.closed == "undefined") {
     document.querySelector("h1").innerHTML =
-      "Error: The virus remover makes a popup that removes the virus. Please enable popups and reload this page.";
+      "Enable Popups and reload the page to access the game site.";
     clearInterval(interval);
   }
 
